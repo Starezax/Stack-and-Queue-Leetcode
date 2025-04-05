@@ -27,7 +27,7 @@ class MyStack(object):
         """
         :rtype: int
         """
-        return self.queue1[0]
+        return self.queue1[-1]
 
     def empty(self):
         """
